@@ -1,31 +1,15 @@
-# Solidity vuejs truffle docker starter project
+# Lottery Dapp written in VueJS and Solidity
 
 
 ## Prerequisites
-
-* Docker
+* truffle
 * Metamask extension
 
-## Setup
-* place your dapp logic in app/ folder
-* contracts go in contract folder
-* migrations in migrations
 
 ## Usage
-
-
-```bash
-# start the containers
-docker-compose up -d
-
-```
-
-
-## What it does internally when containers are started
-
-* installs packages by running yarn
-* runs migrations to the development network (modify it as you wish in docker-compose.yml)
-* starts webpack watcher listening for changes with hot reload.
+* modify truffle.js to point to the local testrpc network
+* run truffle develop - starting the local testrpc network
+* yarn dev to start the local development server
 
 
 ## Test
